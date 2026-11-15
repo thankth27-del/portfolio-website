@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17151c">
+  <meta name="description" content="แฟ้มสะสมผลงานของประภัสพงษ์ ศรีกำพล นักศึกษาเทคโนโลยีสารสนเทศ">
+  <title>ประภัสพงษ์ ศรีกำพล | แฟ้มสะสมผลงาน</title>
+  <script>
+    try {
+      const storedTheme = localStorage.getItem("portfolio-theme");
+      document.documentElement.dataset.theme = storedTheme || "dark";
+      document.documentElement.lang = localStorage.getItem("portfolio-language") || "th";
+    } catch (_) { document.documentElement.dataset.theme = "dark"; }
+  </script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="data/portfolio-data.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+  <svg class="circuit-background" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <g class="circuit-traces">
+      <path class="trace trace-flow flow-a" d="M-40 95h110v48h72v-24h76v72h48v48h66"/>
+      <path class="trace trace-flow flow-b" d="M1480 145h-96v52h-74v38h-68v76h-45"/>
+      <path class="trace trace-flow flow-c" d="M-30 480h70v-62h94v-38h84v58h56"/>
+      <path class="trace trace-flow flow-d" d="M1470 530h-86v-56h-88v-34h-76v-58h-48"/>
+      <path class="trace trace-flow flow-e" d="M-30 790h112v-46h70v-45h86v-65h74"/>
+      <path class="trace trace-flow flow-f" d="M1475 790h-120v-62h-68v-42h-90v-52h-66"/>
+      <path class="trace trace-fine" d="M0 245h45v40h54m-99 260h50v-45h68m1270-402h-54v38h-52m106 560h-62v-36h-52"/>
+      <path class="trace trace-fine" d="M56 0v38h34v54m1276 808v-42h-40v-50M1370 0v45h-44v52M72 900v-48h42v-42"/>
+    </g>
+    <g class="circuit-nodes">
+      <circle cx="218" cy="119" r="3"/><circle cx="402" cy="239" r="3"/><circle cx="1208" cy="311" r="3"/>
+      <circle cx="218" cy="438" r="3"/><circle cx="1196" cy="440" r="3"/><circle cx="236" cy="634" r="3"/>
+      <circle cx="1197" cy="686" r="3"/><circle cx="114" cy="810" r="3"/><circle cx="1352" cy="104" r="3"/>
+    </g>
+  </svg>
+
+  <a class="skip-link" href="#main" data-i18n="skip">ข้ามไปยังเนื้อหาหลัก</a>
+  <header class="site-header" id="top">
+    <a class="brand" href="#home" aria-label="หน้าแรก">
+      <span class="brand-mark" aria-hidden="true">ปศ</span>
+      <span class="brand-name" data-name>ประภัสพงษ์ ศรีกำพล</span>
+    </a>
+    <nav class="desktop-nav" aria-label="เมนูหลัก">
+      <a href="#home" data-i18n="navHome">หน้าแรก</a>
+      <a href="#about" data-i18n="navAbout">ประวัติส่วนตัว</a>
+      <a href="#education" data-i18n="navEducation">ประวัติการศึกษา</a>
+      <a href="#skills" data-i18n="navSkills">ความสามารถและทักษะ</a>
+      <a href="#projects" data-i18n="navProjects">ผลงานของฉัน</a>
+      <a href="#honors" data-i18n="navHonors">เกียรติบัตรและกิจกรรม</a>
+      <a href="#contact" data-i18n="navContact">ติดต่อฉัน</a>
+    </nav>
+    <div class="site-controls">
+      <button class="control-button language-toggle" type="button" aria-label="เปลี่ยนภาษา" title="เปลี่ยนภาษา">
+        <span class="control-language">EN</span>
+      </button>
+      <button class="control-button theme-toggle" type="button" aria-label="เปลี่ยนธีม" title="เปลี่ยนธีม" aria-pressed="false">
+        <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.3 15.1A8.4 8.4 0 0 1 8.9 3.7 8.8 8.8 0 1 0 20.3 15.1Z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <nav class="mobile-dock" aria-label="เมนูสำหรับอุปกรณ์มือถือ">
+    <a href="#home" data-short="home"><span class="dock-icon" aria-hidden="true">⌂</span><span data-i18n="shortHome">หน้าแรก</span></a>
+    <a href="#about" data-short="about"><span class="dock-icon" aria-hidden="true">◉</span><span data-i18n="shortAbout">ประวัติ</span></a>
+    <a href="#skills" data-short="skills"><span class="dock-icon" aria-hidden="true">⌘</span><span data-i18n="shortSkills">ทักษะ</span></a>
+    <a href="#projects" data-short="projects"><span class="dock-icon" aria-hidden="true">▧</span><span data-i18n="shortProjects">ผลงาน</span></a>
+    <a href="#contact" data-short="contact"><span class="dock-icon" aria-hidden="true">↗</span><span data-i18n="shortContact">ติดต่อ</span></a>
+    <button class="dock-more" type="button" aria-expanded="false" aria-controls="mobile-more">
+      <span class="dock-icon" aria-hidden="true">···</span><span data-i18n="more">เพิ่มเติม</span>
+    </button>
+    <button class="dock-control language-toggle" type="button" aria-label="เปลี่ยนภาษา" title="เปลี่ยนภาษา">EN</button>
+    <button class="dock-control theme-toggle" type="button" aria-label="เปลี่ยนธีม" title="เปลี่ยนธีม" aria-pressed="false">
+      <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+      <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.3 15.1A8.4 8.4 0 0 1 8.9 3.7 8.8 8.8 0 1 0 20.3 15.1Z"/></svg>
+    </button>
+    <div class="mobile-more-menu" id="mobile-more" hidden>
+      <a href="#about" data-more-about data-i18n="navAbout">ประวัติส่วนตัว</a>
+      <a href="#education" data-i18n="navEducation">ประวัติการศึกษา</a>
+      <a href="#honors" data-i18n="navHonors">เกียรติบัตรและกิจกรรม</a>
+    </div>
+  </nav>
+
+  <main id="main">
+    <section class="hero section-wrap" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span><span data-i18n="heroRole">นักศึกษาเทคโนโลยีสารสนเทศ</span><span class="eyebrow-index">๐๑ — ๐๗</span></p>
+        <p class="hero-greeting" data-i18n="greeting">สวัสดีครับ ผม</p>
+        <h1 class="hero-name" id="hero-title">
+          <span class="name-th"><span data-name-first>ประภัสพงษ์</span><span data-name-last>ศรีกำพล</span></span>
+          <span class="name-en-primary" data-name-en>Prapatpong Srikampol</span>
+        </h1>
+        <p class="hero-name-alt"><span class="name-en-small" data-name-en>Prapatpong Srikampol</span><span class="name-th-small" data-name>ประภัสพงษ์ ศรีกำพล</span></p>
+        <p class="hero-intro" data-intro></p>
+        <div class="hero-interests"><span class="interest-label" data-i18n="interestsLabel">สิ่งที่สนใจ</span><span data-i18n="interestTech">เทคโนโลยีสารสนเทศ</span><i aria-hidden="true"></i><span data-i18n="interestEngineering">วิศวกรรมและเทคโนโลยี</span></div>
+        <div class="hero-actions">
+          <a class="text-action text-action-primary" href="#projects"><span data-i18n="viewProjects">ดูผลงาน</span><span class="action-arrow" aria-hidden="true">↘</span></a>
+          <a class="text-action" href="#contact"><span data-i18n="contactMe">ติดต่อฉัน</span><span class="action-arrow" aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-foot"><a href="#about"><span class="scroll-line" aria-hidden="true"></span><span data-i18n="scrollMore">เลื่อนเพื่อดูข้อมูลเพิ่มเติม</span></a><span class="hero-gpa" data-gpa-wrap><span data-i18n="gpaLabel">เกรดเฉลี่ยสะสม</span><strong data-hero-gpa>3.93</strong></span></div>
+      </div>
+      <div class="hero-visual" aria-label="รูปประจำตัว">
+        <div class="visual-frame">
+          <span class="visual-index" aria-hidden="true">P / 01</span>
+          <span class="visual-coordinate" aria-hidden="true">IT / 01</span>
+          <div class="portrait-orbit" aria-hidden="true"></div>
+          <div class="portrait-wrap"><img data-portrait alt="รูปประจำตัวของประภัสพงษ์ ศรีกำพล"></div>
+          <div class="portrait-caption"><span data-i18n="portraitCaption">นักศึกษาเทคโนโลยีสารสนเทศ</span><span class="caption-mark" aria-hidden="true">↗</span></div>
+        </div>
+        <div class="visual-note"><span class="note-dot" aria-hidden="true"></span><span data-i18n="learningNote">เรียนรู้ผ่านการลงมือทำ</span></div>
+      </div>
+    </section>
+
+    <section class="section section-about" id="about" aria-labelledby="about-title">
+      <div class="section-wrap">
+        <div class="section-heading reveal"><div><p class="section-kicker"><span>๐๑</span><span data-i18n="aboutKicker">ตัวตนและแนวคิด</span></p><h2 id="about-title" data-i18n="aboutTitle">ประวัติส่วนตัว</h2></div><p class="section-aside" data-i18n="aboutAside">พื้นฐานที่กำลังต่อยอด<br>สู่การเรียนรู้ด้านเทคโนโลยี</p></div>
+        <div class="about-layout">
+          <article class="about-lead reveal"><span class="about-mark" aria-hidden="true">“</span><p data-about-intro></p></article>
+          <div class="about-cards" data-about-cards></div>
+        </div>
+        <div class="personal-facts" data-facts></div>
+      </div>
+    </section>
+
+    <section class="section section-education" id="education" aria-labelledby="education-title">
+      <div class="section-wrap">
+        <div class="section-heading reveal"><div><p class="section-kicker"><span>๐๒</span><span data-i18n="educationKicker">เส้นทางการศึกษา</span></p><h2 id="education-title" data-i18n="educationTitle">ประวัติการศึกษา</h2></div><p class="section-aside" data-i18n="educationAside">ความรู้ที่ต่อยอด<br>จากห้องเรียนสู่การลงมือทำ</p></div>
+        <div class="education-panel reveal">
+          <div class="education-detail"><span class="education-label" data-i18n="currentStudy">กำลังศึกษา</span><h3 data-school></h3><p class="education-field" data-field></p><div class="education-meta"><div><span data-i18n="levelLabel">ระดับการศึกษา</span><strong data-level></strong></div><div data-year-wrap><span data-i18n="yearLabel">ปีการศึกษา</span><strong data-year></strong></div></div></div>
+          <div class="education-result" data-grade-wrap><div class="result-top"><span data-i18n="gpaLabel">เกรดเฉลี่ยสะสม</span><strong data-gpa></strong></div><figure class="grade-figure"><img data-grade-image alt="ภาพสรุปผลการเรียนที่มีเกรดเฉลี่ยสะสมล่าสุด 3.93" loading="lazy"><figcaption data-i18n="gradeCaption">ผลการเรียนที่แนบมาในแฟ้มสะสมผลงาน</figcaption></figure></div>
+          <span class="education-index" aria-hidden="true">EDU / 01</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-skills" id="skills" aria-labelledby="skills-title">
+      <div class="section-wrap">
+        <div class="section-heading reveal"><div><p class="section-kicker"><span>๐๓</span><span data-i18n="skillsKicker">สิ่งที่กำลังเรียนรู้</span></p><h2 id="skills-title" data-i18n="skillsTitle">ความสามารถและทักษะ</h2></div><p class="section-aside" data-i18n="skillsAside">ทักษะที่เกิดจากการศึกษา<br>และการทดลองปฏิบัติ</p></div>
+        <div class="skills-grid" data-skills></div>
+      </div>
+    </section>
+
+    <section class="section section-projects" id="projects" aria-labelledby="projects-title">
+      <div class="section-wrap">
+        <div class="section-heading reveal"><div><p class="section-kicker"><span>๐๔</span><span data-i18n="projectsKicker">สิ่งที่ได้ลงมือทำ</span></p><h2 id="projects-title" data-i18n="projectsTitle">ผลงานของฉัน</h2></div><p class="section-aside" data-i18n="projectsAside">ภาพและบันทึกจาก<br>กิจกรรมการเรียนรู้ที่ผ่านมา</p></div>
+        <div class="projects-grid" data-projects></div>
+      </div>
+    </section>
+
+    <section class="section section-honors" id="honors" aria-labelledby="honors-title">
+      <div class="section-wrap">
+        <div class="section-heading reveal"><div><p class="section-kicker"><span>๐๕</span><span data-i18n="honorsKicker">การเข้าร่วมและการรับรอง</span></p><h2 id="honors-title" data-i18n="honorsTitle">เกียรติบัตรและกิจกรรม</h2></div><p class="section-aside" data-i18n="honorsAside">เอกสารประกอบประสบการณ์<br>การเรียนรู้และการเข้าร่วม</p></div>
+        <div class="certificates-grid" data-certificates></div>
+        <div class="activities-block" id="activities" hidden><h3 data-i18n="activitiesTitle">กิจกรรม</h3><div class="activities-grid" data-activities></div></div>
+      </div>
+    </section>
+
+    <section class="section section-contact" id="contact" aria-labelledby="contact-title">
+      <div class="section-wrap contact-wrap">
+        <div class="contact-heading reveal"><p class="section-kicker"><span>๐๖</span><span data-i18n="contactKicker">พูดคุยและติดต่อ</span></p><h2 id="contact-title" data-i18n="contactTitle">ติดต่อฉัน</h2><p data-i18n="contactIntro">ยินดีพูดคุยเกี่ยวกับการเรียนต่อและโอกาสฝึกงาน</p></div>
+        <div class="contact-grid" data-contacts></div>
+        <div class="contact-signature"><span data-name>ประภัสพงษ์ ศรีกำพล</span><span class="signature-rule" aria-hidden="true"></span><span data-i18n="contactFoot">แฟ้มสะสมผลงานด้านเทคโนโลยีสารสนเทศ</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="section-wrap footer-inner"><a class="footer-brand" href="#home"><span class="brand-mark" aria-hidden="true">ปศ</span><span data-name>ประภัสพงษ์ ศรีกำพล</span></a><p data-i18n="footerText">แฟ้มสะสมผลงานส่วนตัว · เทคโนโลยีสารสนเทศ</p><a href="#top" data-i18n="backTop">กลับสู่ด้านบน ↑</a></div>
+  </footer>
+  <a class="back-to-top" href="#top" aria-label="กลับสู่ด้านบน" data-i18n-aria="backTopAria"><span aria-hidden="true">↑</span></a>
+</body>
+</html>
